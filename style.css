@@ -1,0 +1,8 @@
+.Hidden{
+	display: none;
+}
+
+.stack{
+	display: flex;
+	flex-direction: column;
+}

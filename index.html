@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Karel API</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<img id="East" class="Hidden" src="images/East.png">
+		<img id="South" class="Hidden" src="images/South.png">
+		<img id="West" class="Hidden" src="images/West.png">
+		<img id="North" class="Hidden" src="images/North.png">
+		<img id="Ball" class="Hidden" src="images/ball.png">
+
+		<h1 id="demo">My Karel API</h1>
+
+		<button id="run" class="stack" onclick="start();">START</button>
+		<button id="reset" class="stack" onclick="reset();">RESET</button>
+		<canvas id="myCanvas" class="stack" style="border : 1px solid #000000"></canvas>
+		<script src="karelsFunctions.js"></script>
+		<script src="movePlayer.js"></script>
+    <script src="script.js"></script>
+		
+  </body>
+</html>
